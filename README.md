@@ -124,6 +124,69 @@ Open the Explorer > navigate to outputs/ or data/maps/
 Right-click an image → Open Preview
 Or open in the default OS viewer with start outputs\final_report_hotspot_map.png (Windows)
 ---
+📍 Food Security Hotspot Analysis for Nigeria
+🗺️ Map Outputs
+This project generates two complementary food security hotspot maps:
+1. Static Hotspot Map (PNG)
+File: outputs/maps/generate_final_map_fixed.png
+A fallback high-resolution visualization for quick reference, reports, and publications.
+2. Interactive Hotspot Map (HTML, Quantile Binning)
+File: outputs/maps/interactive_hotspot_map_fixed.html
+An interactive web-based map where users can zoom, pan, and hover to explore risk categories at the LGA level.
+Each administrative unit displays its risk category (Low, Moderate, High, Very High) and name.
+Particularly useful for decision-makers and field teams needing fine-grained insights.
+---
+📊 Map Interpretation
+Map Title: Food Security Hotspot Map (Quantile Binning)
+The map visualizes food security vulnerability across Nigeria using a quantile classification system with four distinct risk categories.
+The color gradient progresses from light green (Low risk) → yellow (Moderate) → orange (High) → red (Very High).
+🔴 High-Risk Concentrations (Red Zones)
+Northeastern Nigeria (Borno, Yobe, Adamawa)
+Factors:
+Ongoing conflict and displacement
+Disrupted agriculture and markets
+Harsh environmental conditions (Sahel zone)
+🟠 Moderate–High Risk Areas (Yellow to Orange)
+Central regions (Plateau, Southern Kaduna, Niger, Taraba)
+Drivers:
+Seasonal insecurity
+Variable productivity
+Limited infrastructure and market access
+Climate variability
+🟢 Low-Risk Areas (Green Zones)
+Southwest & Southeast (Lagos, Ogun, Anambra, Imo, Rivers, Delta)
+Strengths:
+Better infrastructure & market integration
+Agricultural diversity
+Economic opportunities
+More stable climatic conditions
+---
+⚙️ Methodological Significance
+Quantile Binning ensures each category contains a comparable number of LGAs, providing relative risk assessment rather than fixed thresholds.
+Useful for:
+Identifying priority intervention areas
+Allocating resources equitably
+Understanding spatial distribution of vulnerability
+---
+🎯 Policy Implications
+Very High Risk (Red): Urgent interventions needed
+Moderate Risk (Yellow): Preventive action & resilience programs
+High-Risk Corridors: Infrastructure and market integration focus
+Low-Risk Areas: Maintain stability and safeguard progress
+---
+🔗 Data Integration
+This analysis combines:
+Agricultural productivity indicators
+Market access & infrastructure data
+Socio-economic vulnerability
+Environmental & climatic stressors
+Together, the static and interactive maps provide actionable intelligence for policymakers, humanitarian actors, and development agencies to address food insecurity in Nigeria.
+---
+## Interactive Food Security Hotspot Map
+Here is a preview of the interactive map generated with quantile binning:
+[![Interactive Map Preview](outputs/maps/interactive_hotspot_map_preview.png)](outputs/maps/interactive_hotspot_map_fixed.html)
+Click the preview image above to open the **full interactive map**.
+---
 Citation
 If this project supports your work, please cite:
 > Egwu, A. J. (2025). Mapping Food Security Hotspots (Nigeria). GitHub: https://github.com/Adam49-Tech
